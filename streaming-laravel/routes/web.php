@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RegrisController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('homepage', function () {
     return view('homepage');
 });
+
+Route::get('regris', [RegrisController::class, 'create'])->name('regris');
+Route::post('regris', [RegrisController::class, 'store'])->name('regris');

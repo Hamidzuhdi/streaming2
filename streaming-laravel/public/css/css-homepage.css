@@ -32,9 +32,53 @@ body {
     padding: 20px;
   }
 
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-  }
+/* Footer Container */
+.footer {
+    background-color: #f0f0f0; /* Ganti dengan warna latar belakang yang Anda inginkan */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; /* Ini akan membuat tautan di kiri dan ikon di kanan */
+    align-items: center;
+}
+
+/* Daftar Tautan (ul) */
+.footer ul {
+    margin-top: 10px;
+    text-align: left; /* Aligment untuk tautan "About," "Contact," dsb. ke kiri */
+    list-style: none;
+}
+
+/* Item Tautan (li) */
+.footer li {
+    display: inline;
+    margin-bottom: 10px; /* Sesuaikan jarak antara tautan */
+    margin-left: 20px;
+}
+
+#fb{
+    margin-left: 950px;
+}
+
+/* Ikon Media Sosial (i) */
+.footer i {
+    font-size: 24px; /* Sesuaikan ukuran ikon */
+}
+
+
+ /* Atur warna dan margin untuk tautan di footer */
+.footer a {
+    color: #000; /* Ganti dengan warna yang Anda inginkan */
+    margin-right: 10px; /* Sesuaikan jarak antara tautan */
+    text-decoration: none; /* Hapus garis bawah pada tautan */
+}
+
+/* Atur warna untuk teks hak cipta */
+.footer p {
+    color: #777; /* Ganti dengan warna yang Anda inginkan */
+    margin-top: 10px; /* Sesuaikan jarak dari tautan ke teks hak cipta */
+    margin-left: 59px;
+}
+
+
+
+
