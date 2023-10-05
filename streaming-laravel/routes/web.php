@@ -14,7 +14,7 @@ use App\Http\Controllers\RegrisController;
 |
 */
 
-Route::get('homepage', function () {
+Route::get('/', function () {
     return view('homepage');
 });
 
