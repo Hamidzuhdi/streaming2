@@ -20,3 +20,7 @@ Route::get('/', function () {
 
 Route::get('regris', [RegrisController::class, 'create'])->name('regris');
 Route::post('regris', [RegrisController::class, 'store'])->name('regris');
+
+Route::get('/live', function () {
+    return view('live');
+});

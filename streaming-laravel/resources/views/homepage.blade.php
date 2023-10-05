@@ -7,7 +7,7 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/css-homepage.css" rel="stylesheet" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/css-homepage.css"> <!-- Tautkan file CSS terpisah -->
@@ -18,7 +18,7 @@
     <h1>Streaming Sepak Bola</h1>
     <nav>
       <ul>
-        <li><a href="#">Watch Live</a></li>
+        <li><a href="/live">Watch Live</a></li>
         <li><a href="#">Schedule</a></li>
         <li><a href="#">Highlight</a></li>
         <li><a href="/regris">Regris</a></li>
@@ -44,7 +44,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 text-center text-lg-start my-auto">
-                <ul class="list-inline mb-2">
+                <ul class="list-inline mb-8">
                     <li class="list-inline-item"><a href="#!">About</a></li>
                     <li class="list-inline-item"><a href="#!">Contact</a></li>
                     <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
@@ -54,7 +54,7 @@
             </div>
             <div class="col-lg-6 text-center text-lg-end my-auto">
                 <ul class="list-inline mb-0">
-                    <li class="list-inline-item me-4">
+                    <li class="list-inline-item me-4 ml-10">
                         <a href="#!"><i class="bi-facebook fs-3" id="fb"></i></a>
                     </li>
                     <li class="list-inline-item me-4">
