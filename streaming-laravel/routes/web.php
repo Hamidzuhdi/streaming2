@@ -15,7 +15,7 @@ use App\Http\Controllers\RegrisController;
 */
 
 Route::get('/', function () {
-    return view('homepage');
+    return view('home');
 });
 
 Route::get('regris', [RegrisController::class, 'create'])->name('regris');
